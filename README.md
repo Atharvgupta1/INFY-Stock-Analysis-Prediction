@@ -1,10 +1,10 @@
-# 📊INFY-Stock-Analysis-Prediction
+## 📊INFY-Stock-Analysis-Prediction
 
 ## 📌 Overview
 
-This project analyses historical stock data of Infosys (INFY.NS) and builds a machine learning model to predict the next-day stock price direction (UP/DOWN).
+This project analyzes historical stock data of Infosys (INFY.NS) to understand price trends, volatility, and feature relationships.
+A machine learning model is developed to predict the next-day stock price direction (UP/DOWN) using basic technical indicators, including moving averages, returns, and volatility.
 
----
 
 ## 🎯 Objective
 
