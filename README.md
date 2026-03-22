@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-This project analyzes historical stock data of Infosys (INFY.NS) to understand price trends, volatility, and feature relationships.
+This project analyses historical stock data of Infosys (INFY.NS) to understand price trends, volatility, and feature relationships.
 A machine learning model is developed to predict the next-day stock price direction (UP/DOWN) using basic technical indicators, including moving averages, returns, and volatility.
 
 
@@ -48,12 +48,6 @@ A machine learning model is developed to predict the next-day stock price direct
 
 ---
 
-## ⚠️ Conclusion
-
-This project analyzed Infosys (INFY.NS) stock data and attempted to predict next-day price direction using basic technical indicators.
-The model achieved accuracy close to random guessing (~50–55%), indicating that these features fail to capture meaningful predictive patterns.
-This highlights the limitation of relying solely on historical price-based indicators for short-term stock direction prediction.
-
 ## 🔍 Key Insights
 
 * Moving averages (MA10, MA50) are highly correlated with price levels but offer little value in predicting future direction, as they are lagging indicators.
@@ -61,3 +55,11 @@ This highlights the limitation of relying solely on historical price-based indic
 * The absence of strong feature-target relationships suggests that stock direction is not linearly predictable using simple technical indicators.
 * The model’s low performance reinforces that stock movements are driven by complex, external factors such as news, sentiment, and macroeconomic conditions, which    are not captured in this dataset.
 * Improving prediction accuracy requires richer features (technical indicators, lag variables, or external data) and more advanced modelling approaches.
+
+  ---
+
+  ## ⚠️ Conclusion
+
+This project analyzed Infosys (INFY.NS) stock data and attempted to predict next-day price direction using basic technical indicators.
+The model achieved accuracy close to random guessing (~50–55%), indicating that these features fail to capture meaningful predictive patterns.
+This highlights the limitation of relying solely on historical price-based indicators for short-term stock direction prediction.
